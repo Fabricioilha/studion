@@ -75,7 +75,7 @@
 
 
 
-/* --------------------- HEADER-------------------------------*/
+/* --------------------- HEADER--(slider)-------------------------------*/
 #slider{
     overflow: hidden;
     height: 100vh;
@@ -176,7 +176,29 @@
 }
 
 
-/* --------------------- HEADER-------------------------------*/
+/* --------------------- HEADER--(slider)-------------------------------*/
+
+/* --------------------- SECTION NUMERIC-------------------------------*/
+#numeric_section{
+    background-color: var(--cor-padrao-amarelo);
+    color: #fff;
+}
+.container_numeric_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.375rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:larger;
+}
+.container_numeric_section h2{
+    font-size: 2.1875rem;
+}
+
+
+/* --------------------- SECTION NUMERIC-------------------------------*/
 
 
 
