@@ -152,7 +152,7 @@
 .box_info h1 span{
     color: var(--cor-padrao-amarelo);
 }
-.box_info .btn{
+.btn{
     width: 10.93rem;
     padding: 1rem;
     border-radius: 30px;
@@ -161,9 +161,12 @@
     background-color: unset;
     color: var(--cor-padrao-amarelo);
     border: 3px solid var(--cor-padrao-amarelo);
+    
+    transition: all ease 0.3s;
+}
+.box_info .btn{
     position: absolute;
     bottom: 15%;
-    transition: all ease 0.3s;
 }
 
 .btn:hover,
@@ -200,7 +203,33 @@
 
 /* --------------------- SECTION NUMERIC-------------------------------*/
 
+/* --------------------- INSTITUTIONAL SECTION-------------------------------*/
 
+.container_institutional{
+    padding: 4.6875rem 0 ;
+    display: flex;
+    color: #333;
+}
+
+.info_institutional{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 3.125rem ;
+}
+.info_institutional p{
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.info_institutional p:first-child{
+    text-transform: uppercase;
+}
+.info_institutional h2{
+    margin-bottom: 3.25rem;
+    font-weight: 700;
+}
+
+/* --------------------- INSTITUTIONAL SECTION-------------------------------*/
 
 /* --------------------- FOOTER-------------------------------*/
 
