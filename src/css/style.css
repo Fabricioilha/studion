@@ -231,6 +231,52 @@
 
 /* --------------------- INSTITUTIONAL SECTION-------------------------------*/
 
+/* --------------------- QUOTE SECTION-------------------------------*/
+#quote_section{
+    height: 42rem;
+    background-image: url("../images/quote.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container_quote{
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    align-items: center;
+}
+.info_quote{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width:37.5rem ;
+    padding:5rem 3.125rem ;
+}
+.info_quote p{
+    letter-spacing: 0.1875rem;
+    font-weight: 400;
+}
+.info_quote h2{
+    margin: 2rem 0 ;
+    font-size: 5rem;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+.info_quote h2 span{
+    color: var(--cor-padrao-amarelo);
+}
+.info_quote .btn{
+    color: #000;
+    border-color: #000;
+}
+.info_quote .btn:hover{
+    box-shadow: 0 10px 30px #000;
+    color: #fff;
+}
+/* --------------------- QUOTE SECTION-------------------------------*/
+
 /* --------------------- FOOTER-------------------------------*/
 
 footer{
