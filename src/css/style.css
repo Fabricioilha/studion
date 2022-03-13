@@ -14,10 +14,15 @@
 
 /* --------------------- NAVBAR-------------------------------*/
 .navbar{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.433);
     color:#fff ;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    z-index: 3;
 }
 .container{
+    margin: auto;
     max-width: 1140px;
 }
 .container_navbar{
@@ -70,11 +75,116 @@
 
 
 
+/* --------------------- HEADER-------------------------------*/
+#slider{
+    overflow: hidden;
+    height: 100vh;
+}
+.slider{
+    display: flex;
+    height: 100%;
+    position: relative;
+    height: 300vw;
+    transition: all ease 0.5s;
+}
+.slide{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.slide img{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.controles{
+    z-index: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 99vw;
+    font-size: 5rem;
+    padding: 2rem;
+}
+.vai,.volta{
+    cursor: pointer;
+    opacity: 0.4;
+}
+.container_slider{
+    top: 0;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+.container.slide_info{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.box_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    text-transform: uppercase;
+    margin-right: 10%;
+}
+.box_info h1{
+    font-size: 6.25rem;
+    color:#fff;
+    font-weight: 700;
+}
+.box_info p{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.box_info p span,
+.box_info h1 span{
+    color: var(--cor-padrao-amarelo);
+}
+.box_info .btn{
+    width: 10.93rem;
+    padding: 1rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: unset;
+    color: var(--cor-padrao-amarelo);
+    border: 3px solid var(--cor-padrao-amarelo);
+    position: absolute;
+    bottom: 15%;
+    transition: all ease 0.3s;
+}
+
+.btn:hover,
+.btn:active,
+.bnt:focus{
+    border-color: var(--cor-padrao-amarelo);
+    background-color: var(--cor-padrao-amarelo);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* --------------------- HEADER-------------------------------*/
 
 
 
 /* --------------------- FOOTER-------------------------------*/
 
+footer{
+    background-color: #000;
+}
 .container_footer{
     background-color: #000;
     color: #fff;
