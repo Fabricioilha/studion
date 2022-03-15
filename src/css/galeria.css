@@ -1,0 +1,58 @@
+#main__gallery{
+    background-color: #000;
+}
+.grid__gallery{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 12.5rem 0;
+    display: grid;
+    justify-content: center;
+    gap: 1.875rem;
+    grid-template-columns: repeat(4,15.625rem);
+    grid-template-areas: 
+    "ft1 ft2 ft3 ft4"
+    "ft5 ft2 ft3 ft8"
+    "ft5 ft2 ft7 ft8"
+    "ft5 ft6 ft7 ft8"
+    "ft9 ft6 ft10 ft8"
+    ;
+}
+.ft{
+    width: 15rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+#ft1{grid-area: ft1;
+    height: 180px;
+
+}
+#ft2{grid-area: ft2;
+    height: 350px;
+}
+#ft3{grid-area: ft3;
+    height: 280px;    
+}
+#ft4{grid-area: ft4;
+    height: 200px;
+}
+#ft5{grid-area: ft5;
+    height: 255px;
+}
+#ft6{grid-area: ft6;
+    height: 250px;
+}
+#ft7{grid-area: ft7;
+    height: 175px;
+}
+#ft8{grid-area: ft8;
+    height: 440px;
+}
+#ft9{grid-area: ft9;
+    height: 255px;
+}
+#ft10{grid-area: ft10;
+    height: 255px;
+}
+

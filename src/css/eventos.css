@@ -1,0 +1,124 @@
+#section_eventos{
+    margin: 5rem 0;
+}
+.evento{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.evento_info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.evento img{
+    height:11.25rem;
+    width: 11.25rem;
+}
+.evento_info_up{
+    width: 100%;
+    margin-left:3.125rem ;
+}
+.evento_info_up h2{
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #ffc602;
+    font-weight: 700;
+}
+.evento_info_up p:nth-child(2){
+    padding: 1.25rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.1875rem;
+    line-height: 1.125rem;
+    color: #000000;
+    font-weight: 700;
+}
+.evento_info_up p:nth-child(1){
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+    max-width: 33rem;
+}
+.info_button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.info_button button{
+    text-transform: uppercase;
+    background-color: var(--cor-padrao-amarelo);
+    width: 12.875rem;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px 0;
+    border-radius: 30px;
+    border: none;
+    margin-top: -2.5em;
+}
+.info_button button:hover{
+    background-color: #fff;
+    color: var(--cor-padrao-amarelo);
+    border: 1px solid var(--cor-padrao-amarelo);
+    cursor: pointer;
+}
+.evento_desc{
+    padding-top: 4.375rem;
+    display: none;
+    width: 100%;
+    padding-left: 14.375rem;
+    animation: down 1s;
+}
+.active{
+    display: block;
+}
+.desc_local{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.desc_local button{
+    position: absolute;
+    right: 0;
+}
+.evento_desc p{
+    line-height: 27px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.desc_local_text{
+    padding: 2rem 0;
+}
+.desc_local_text h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.desc_local button{
+    text-transform: uppercase;
+    background-color: #fff;
+    color: var(--cor-padrao-amarelo);
+    width: 12.875rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 0;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes down{
+    0%{
+        transform: rotateX(90deg);
+    }
+    100%{
+        transform:rotate(0);
+    }
+}
+

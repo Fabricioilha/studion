@@ -1,0 +1,58 @@
+footer{
+    background-color: #000;
+}
+.container_footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12.5rem;
+    padding: 1rem;
+}
+.formulario form{
+    align-items: center;
+    display: flex;
+}
+.formulario label{
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-right: 1.25rem;
+}
+.formulario input{
+    padding: 1rem ;
+    width: 19.6875rem;
+    background-color: #ffc500;
+    outline: none;
+    border: none;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.formulario i{
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    color: #000;
+    border: none;
+    background-color: white;
+    margin-left: -3.0625rem;
+}
+
+.copy{
+    height:6.25rem ;
+    background-color: #000;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid rgb(85, 84, 84);
+}
+.copy>p>span{
+    color: var(--cor-padrao-amarelo);
+}
+.icones{
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+}

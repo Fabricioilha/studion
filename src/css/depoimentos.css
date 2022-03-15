@@ -1,0 +1,81 @@
+
+#h1_depoimentos{
+    font-size: 4.8rem;
+}
+#section_depoimentos{
+    background-color: var(--cor-padrao-amarelo);
+}
+.container_depoimentos{
+    position: relative;
+    height: 48.125rem;
+    overflow: hidden;
+}
+.depoimentos{
+    display: flex;
+    margin-left:0;
+    transition: all ease 1s;
+    height: 100%;
+}
+.depoimento{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 18.401875rem;
+    height: 100%;
+    text-align: center;
+}
+.depoimento img{
+    height: 18.75rem;
+    width: 18.75rem;
+}
+
+.nome_cargo{
+    text-align: right;
+    margin-top: 1rem;
+}
+.nome_cargo h2{
+    font-size: 3.4rem;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+.nome_cargo p{
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.depoimento i{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+.checkbox{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+.box{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2rem 0.5rem;
+    background-color: #fff;
+}
+.box_active{
+    background-color: #000;
+    transition: all ease 1s;
+}
+.depoimento_controles{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 5rem;
+    
+}

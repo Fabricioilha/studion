@@ -25,4 +25,5 @@ function mudamargem(n){
     slider.style.marginLeft = `calc(-100vw * ${n})`;
 }
 
+
 setInterval((vai),5000)

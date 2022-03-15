@@ -1,0 +1,87 @@
+
+#section_contato{
+    display: flex;
+    height: 37.5rem;
+    position: relative;
+}
+.bg_e{
+    width: 50%;
+}
+.bg_d{
+    width: 50%;
+    background-color: #000;
+}
+.container_contato{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+.contato{
+    width: 50%;
+    padding: 3rem 1rem;
+    
+}
+.contato h2{
+    font-size: 1.5625;
+    color: #333333;
+    font-weight: 700;
+    padding-top: 2rem ;
+}
+.contato p{
+    display: inline-block;
+    font-size: 1.0625rem;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.contato i{
+    color: var(--cor-padrao-amarelo);
+    margin-right: 0.5rem;
+}
+.mensagem{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.mensagem h2{
+    margin-top: 5rem;
+    padding: 0 3rem;       
+    font-size: 1.5625;
+    color: #fefefe;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.mensagem label{
+    font-size: 1rem;
+    color: #fefefe;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.mensagem input{
+    padding: 0.8rem 0;
+    background-color: #000;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+}
+.mensagem form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    height: 100%;
+}
+.mensagem button{
+    position: absolute;
+    bottom: 15%;
+    right: 3rem;
+}
+#section_map iframe{
+    width: 100vw;
+    height: 37.5rem;
+}
